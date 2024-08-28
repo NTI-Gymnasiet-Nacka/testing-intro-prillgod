@@ -1,8 +1,10 @@
 # Vokalräkning
 
-def main():
-    # Skriv din lösning här nedan. Byt ut "pass" mot din kod.
-    pass
+vokaler = "aeiouyåäöAEIOUYÅÄÖ"
+mening = input()
+räknare = 0
 
-if __name__ == "__main__":
-    main()
+for vokal in mening:
+    if vokal in vokaler:
+        räknare += 1
+print(räknare)

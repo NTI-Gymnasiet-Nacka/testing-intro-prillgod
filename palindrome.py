@@ -1,8 +1,11 @@
-# Palindrome
+def palindrom(s):
+    return s == s[::-1]
 
-def main():
-    # Skriv din lösning här nedan. Byt ut "pass" mot din kod.
-    pass
 
-if __name__ == "__main__":
-    main()
+s = input()
+ans = palindrom(s)
+
+if ans:
+    print("Ja, meningen är en palindrom")
+else:
+    print("Nej, meningen är inte en palindrom")

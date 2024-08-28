@@ -1,8 +1,4 @@
-# Största skillnad
-
-def main():
-    # Skriv din lösning här nedan. Byt ut "pass" mot din kod.
-    pass
-
-if __name__ == "__main__":
-    main()
+lista = input()
+tal = [int(num.strip()) for num in lista.split(",")]
+skillnaden = max(tal) - min(tal)
+print(skillnaden)

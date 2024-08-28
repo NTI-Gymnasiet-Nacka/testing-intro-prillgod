@@ -1,8 +1,4 @@
-# Gradkonverterare
-
-def main():
-    # Skriv din lösning här nedan. Byt ut "pass" mot din kod.
-    pass
-
-if __name__ == "__main__":
-    main()
+celsius = input()
+fahrenheit = float(celsius) * 1.8 + 32
+fahrenheit = round(fahrenheit, 2)
+print(fahrenheit)
